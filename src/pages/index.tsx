@@ -1,10 +1,16 @@
-import Head from 'next/head'
+import { styled } from "@/styles"
+
+
+const Text = styled("p",{
+  fontSize: 50,
+  fontFamily: "$roboto",
+  fontWeight: "bold"
+  
+})
 
 
 export default function Home() {
   return (
-    <>
-     <h1>Hello World</h1>
-    </>
+    <Text>Hello world </Text>
   )
 }
