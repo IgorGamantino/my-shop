@@ -1,16 +1,24 @@
 import { styled } from "@/styles"
 
 
-const Text = styled("p",{
-  fontSize: 50,
-  fontFamily: "$roboto",
-  fontWeight: "bold"
+
+const Button = styled("button",{
   
+  span: {
+    backgroundColor: "#4944"
+  },
+  "&:hover": {
+    color: "#ff4da6"
+  }
 })
+
 
 
 export default function Home() {
   return (
-    <Text>Hello world </Text>
+    <Button>
+    <span>Hello world </span>
+
+    </Button>
   )
 }
