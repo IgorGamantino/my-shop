@@ -9,9 +9,6 @@ export const roboto = Roboto({
   display: 'swap',
 })
 
-
-
-
 export const {
 config,
 styled,
