@@ -2,14 +2,22 @@ import { styled } from "..";
 
 export const HomeContainer = styled("main", {
   display: "flex",
-  gap: "3rem"
+  // gap: "3rem"
+  width: "100%",
+  minWidth: 400,
+
+  "a:first-child":{
+    marginLeft: 10
+  }
+ 
 });
 
 export const Product = styled("a", {
   alignItems: "center",
   background: "linear-gradient(180deg, #1EA483 0%, #7465D4 100%)",
-  padding: 4,
 
+  maxWidth: 400,
+  borderRadius: 8,
 });
 
 export const Footer = styled("footer", {
